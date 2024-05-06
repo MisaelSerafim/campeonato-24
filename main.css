@@ -141,7 +141,7 @@ ul.result-camp li strong {
     margin-bottom: 30px;
 }
 .text-itens p {
-    padding-left: 10px;
+    padding-left: 20px;
     margin-bottom: 10px;
     font-size: 14px;
 }
@@ -168,4 +168,10 @@ td {
     text-align: center;
     font-size: 14px;
     background: #dee3f0;
+}
+ul.result-camp li img {
+    width: 35px;
+    height: 35px;
+    object-position: center;
+    object-fit: contain;
 }
