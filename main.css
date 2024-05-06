@@ -175,3 +175,30 @@ ul.result-camp li img {
     object-position: center;
     object-fit: contain;
 }
+.info-corrida p {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.info-corrida .pole strong {
+    color: #df1fdf;
+}
+p.hotlap span {
+    color: #4CAF50;
+    font-weight: 700;
+}
+p.pilotodia strong {
+    color: #2196F3;
+}
+p.hotlap strong {
+    color: darkred;
+}
+.text-itens ul li {
+    font-size: 14px;
+}
+th {
+    font-size: 13px;
+}
+.text-itens ul {
+    padding-left: 30px;
+    list-style: disc;
+}
