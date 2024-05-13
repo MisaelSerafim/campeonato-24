@@ -202,3 +202,27 @@ th {
     padding-left: 30px;
     list-style: disc;
 }
+
+@media screen and (max-width: 635px)
+{
+    main {
+        padding: 30px;
+    }
+    .box-box.lista-corridas {
+        min-width: 100%;
+        width: 100%;
+    }
+    .lista-itens .pista div {
+        text-align: center;
+    }
+    .lista-itens .pista div img {
+        margin: auto;
+    }
+    .lista-itens .pista .data img {
+        margin-right: 7px;
+        margin-left: 0;
+    }
+    .lista-itens .pista {
+        flex-wrap: wrap;
+    }
+}
