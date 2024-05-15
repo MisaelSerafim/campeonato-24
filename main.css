@@ -56,6 +56,10 @@ h1 {
 .lista-itens {
     display: flex;
     flex-direction: column;
+    height: 100%;
+}
+.box-box.pontuacao .lista-itens {
+    height: inherit;
 }
 .lista-itens .pista {
     display: flex;
@@ -65,6 +69,7 @@ h1 {
     background: #fff;
     margin-bottom: 8px;
     border-radius: 4px;
+    height: 100%;
     align-items: center;
     border-left: 18px solid transparent;
 }
@@ -224,5 +229,8 @@ th {
     }
     .lista-itens .pista {
         flex-wrap: wrap;
+    }
+    .box-box {
+        min-width: 100%;
     }
 }
